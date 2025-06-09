@@ -1,0 +1,13 @@
+your_dbt_project:
+  target: prod
+  outputs:
+    prod:
+      type: snowflake
+      account: AXYLLYI-BC38465.snowflakecomputing.com
+      user: demosf
+      password: "{{ env_var('SNOWFLAKE_PASSWORD') }}"
+      role: accountadmin
+      database: DEMO_DBT
+      warehouse: DBT_WH
+      schema: DEMO_DBT_SCHEMA
+      threads: 4
