@@ -1,4 +1,4 @@
-your_dbt_project:
+your_dbt_project: Run Sample Nation
   target: prod
   outputs:
     prod:
