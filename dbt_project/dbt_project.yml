@@ -4,8 +4,8 @@ config-version: 2
 
 profile: 'dbt_project'
 
-model-paths: ["models"]
-macro-paths: ["macros"]
+model-paths: ["dbt_project/models/store_nation_results.sql"]
+macro-paths: [""]
 
 models:
   Run_Sample_Nation:
