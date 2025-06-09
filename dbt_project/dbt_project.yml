@@ -1,0 +1,12 @@
+name: 'Run_Sample_Nation'
+version: '1.0.0'
+config-version: 2
+
+profile: 'dbt_project'
+
+model-paths: ["models"]
+macro-paths: ["macros"]
+
+models:
+  Run_Sample_Nation:
+    materialized: table
